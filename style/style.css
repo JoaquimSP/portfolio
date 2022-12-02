@@ -1,12 +1,32 @@
 @charset "UTF-8";
 
+/* Declarações Globais */
+
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
+
+/* Header */
+
+nav {
+    list-style: none;
+}
+
+nav a {
+    color: black;
+}
+
+nav li {
+    display: table-cell; /* ...|...|... */
+    padding: 15px 0;
+}
+
+/* Main */
 
 .profile-img {
     border-radius: 50%;
