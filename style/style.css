@@ -8,8 +8,9 @@ a {
     text-decoration: none;
 }
 
-.profile-image {
+.profile-img {
     border-radius: 50%;
     max-height: 250px;
     max-width: 250px;
+    width: 100%;
 }
