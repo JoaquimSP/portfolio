@@ -1,3 +1,4 @@
+
 /*!
     * Start Bootstrap - Resume v6.0.2 (https://startbootstrap.com/theme/resume)
     * Copyright 2013-2020 Start Bootstrap
