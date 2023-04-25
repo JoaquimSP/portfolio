@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+header {
+    text-align: center;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+.blue {
+    color: #1A7DF0;
+}
