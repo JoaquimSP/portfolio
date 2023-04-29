@@ -40,7 +40,7 @@ a {
    display: flex;
    flex-direction: row;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-evenly;
    padding: 0 10%;
 }
 
@@ -60,7 +60,12 @@ a {
 
 .about {
    padding: 15px; /* Verificar */
+   align-items: center;
+   flex-direction: row; /* Opcional */
+   justify-content: center; /* Opcional */
 }
+
+/* --- Box --- */
 
 .box {
    display: flex;
@@ -97,5 +102,9 @@ a {
 }
 
 img {
+
+}
+
+.about-text {
 
 }
