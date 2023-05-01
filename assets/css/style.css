@@ -119,12 +119,26 @@ section {
    font-weight: bold;
    padding: 15px;
    text-align: center;
+   color: grey;
+}
+
+.text {
+   font-weight: bold;
+   padding: 5px;
+   text-align: center;
+   color: grey;
 }
 
 /* --- Projetos --- */
 
 .projects {
 
+}
+
+.box-image {
+   display: flex; /* Verificar */
+   justify-content: center; /* Verificar */
+   align-items: center; /* Verificar */
 }
 
 div.gallery {
