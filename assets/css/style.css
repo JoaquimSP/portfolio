@@ -59,10 +59,10 @@ a {
 /* --- Sobre mim --- */
 
 .about {
-   padding: 15px; /* Verificar */
-   align-items: center;
-   flex-direction: row; /* Opcional */
-   justify-content: center; /* Opcional */
+   /* padding: 15px;  Verificar */
+   /* align-items: center;
+   /* flex-direction: row;  Opcional */
+   /* justify-content: center;  Opcional */
 }
 
 /* --- Box --- */
@@ -75,6 +75,7 @@ a {
    height: 50px;
    background-color: blueviolet; /* Opcional */
    margin-bottom: 20px;
+   margin-top: 20px;
 }
 
 .box a {
@@ -107,4 +108,10 @@ img {
 
 .about-text {
 
+}
+
+/* --- Projetos --- */
+
+.projects {
+   
 }
