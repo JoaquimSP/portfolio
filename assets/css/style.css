@@ -56,6 +56,10 @@ a {
    margin-left: 1.5rem; 
 }
 
+section {
+   padding: 10px;
+}
+
 /* --- Sobre mim --- */
 
 .about {
@@ -102,16 +106,69 @@ a {
 
 }
 
-img {
-
+.about-img {
+   float: left;
+   padding: 10px;
 }
 
 .about-text {
+   padding: 35px;
+}
 
+.subtitle {
+   font-weight: bold;
+   padding: 15px;
+   text-align: center;
 }
 
 /* --- Projetos --- */
 
 .projects {
-   
+
+}
+
+div.gallery {
+   margin: 5px;
+   border: 1px solid #ccc;
+   float: left;
+   width: 180px;
+}
+
+div.gallery:hover {
+   border: 1px solid #777;
+}
+
+div.gallery img {
+   width: 100%;
+   height: auto;
+}
+
+div.desc {
+   padding: 15px;
+   text-align: center;
+}
+
+.resposive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+   .responsive {
+     width: 49.99999%;
+     margin: 6px 0;
+   }
+ }
+ 
+ @media only screen and (max-width: 500px) {
+   .responsive {
+     width: 100%;
+   }
+ }
+
+/* --- Contato --- */ 
+
+.contact {
+
 }
