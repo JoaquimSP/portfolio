@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <title>Joaquim Pinto</title>
 </head>
 <body>
  <main>   
   <header>
     <nav class="navbar">
-      <a href="#">Home</a> <a class="blue">|</a>
-      <a href="#">Sobre mim</a> <a class="blue">|</a>
-      <a href="#">Projetos</a> <a class="blue">|</a>
-      <a href="#">Contato</a>
+      <a href="#home">Home</a> <a class="blue">|</a>
+      <a href="#about">Sobre mim</a> <a class="blue">|</a>
+      <a href="#projects">Projetos</a> <a class="blue">|</a>
+      <a href="#contact">Contato</a>
     </nav>
   </header>  
 
-  <section class="home"> 
+  <section class="home" id="home"> 
    <div class="home-content">
      <h1>Olá, meu nome é <br><a class="blue">Joaquim Pinto.</a></h1> 
        <h2>Desenvolvedor Web</h2>
@@ -28,7 +29,7 @@
     <img src="assets/img/joaquim-img-p.png" alt="Joaquim Pinto">
   </section>
   
-  <section class="about">
+  <section class="about" id="about">
     <div class="box">
       <a>SOBRE MIM</a>
     </div>
@@ -41,15 +42,23 @@
 
     <div class="about-text">
       <p>Formado no curso técnico em informática para internet no IFSul, câmpus Santana do
-        Livramento. Atualmente, estou no 3° semestre do curso em Análise e Desenvolvimento
+        Livramento. Atualmente, estou no 4° semestre do curso em Análise e Desenvolvimento
         de Sistemas.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maxime provident architecto. Aut voluptas nulla iure, autem dolorem eum, placeat blanditiis, iusto assumenda architecto voluptates temporibus asperiores? Ea, quidem. Nam.</p>  
       <p class="subtitle">SKILLS</p>
       <p class="text">Linguages de Programação & Ferramentas</p>  
+      
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-js"></i>
+      <i class="fa-brands fa-php"></i>
+      <i class="fa-brands fa-bootstrap"></i>
+      <i class="fa-brands fa-linux"></i>
+    
     </div>
   </section>
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <div class="box">
       <a>PROJETOS</a>
     </div>
@@ -111,7 +120,7 @@
    </div>    
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="box">
       <a>CONTATO</a>
     </div>
@@ -124,6 +133,10 @@
       <a href="#" class="social">E-mail</a>
     </div>
   </section> 
+
+  <footer>
+
+  </footer>
 
 </main>
 </body>

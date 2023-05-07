@@ -8,6 +8,14 @@
    font-family: 'Inter', sans-serif;
 }
 
+html {
+
+}
+
+body {
+
+}
+
 header {
    text-align: center;
    position: relative;
@@ -77,7 +85,7 @@ section {
    align-items: center;
    width: 100vw; 
    height: 50px;
-   background-color: blueviolet; /* Opcional */
+   background-color: grey; /* Opcional */
    margin-bottom: 20px;
    margin-top: 20px;
 }
@@ -139,13 +147,13 @@ section {
    display: flex; /* Verificar */
    justify-content: center; /* Verificar */
    align-items: center; /* Verificar */
+   width: 100%;
 }
 
 div.gallery {
    margin: 5px;
    border: 1px solid #ccc;
    float: left;
-   width: 180px;
 }
 
 div.gallery:hover {
