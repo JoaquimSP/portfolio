@@ -16,7 +16,7 @@ header {
    text-align: center;
    position: relative;
    top: 10px;
-   padding: 20px;
+   /* padding: 20px; */
 }
 
 a {
@@ -26,8 +26,8 @@ a {
 
 .navbar a {
    font-weight: 550;
-   padding: 5px;
-   margin-left: 5px; /* Opcional */
+   /* padding: 5px; */
+   /* margin-left: 5px;  Opcional */
    transition: .3s;  
 }
 
@@ -45,7 +45,7 @@ a {
    flex-direction: row;
    align-items: center;
    justify-content: space-evenly;
-   padding: 0 10%;
+   /* padding: 0 10%; */
 }
 
 .home h1 {
@@ -61,7 +61,7 @@ a {
 }
 
 section {
-   padding: 10px;
+  /*  padding: 10px; */
    height: 100vh;
    width: 100vw;
 }
@@ -84,8 +84,8 @@ section {
    width: 100vw; 
    height: 50px;
    background-color: grey; /* Opcional */
-   margin-bottom: 20px;
-   margin-top: 20px;
+   /* margin-bottom: 20px; */
+   /* margin-top: 20px; */
 }
 
 .box a {
@@ -114,23 +114,23 @@ section {
 
 .about-img {
    float: left;
-   padding: 10px;
+   /* padding: 10px; */
 }
 
 .about-text {
-   padding: 35px;
+   /* padding: 35px; */
 }
 
 .subtitle {
    font-weight: bold;
-   padding: 15px;
+   /* padding: 15px; */
    text-align: center;
    color: grey;
 }
 
 .text {
    font-weight: bold;
-   padding: 5px;
+   /* padding: 5px; */
    text-align: center;
    color: grey;
 }
@@ -164,12 +164,12 @@ div.gallery img {
 }
 
 div.desc {
-   padding: 15px;
+   /* padding: 15px; */
    text-align: center;
 }
 
 .resposive {
-  padding: 0 6px;
+ /* padding: 0 6px; */
   float: left;
   width: 24.99999%;
 }
