@@ -20,6 +20,10 @@ header {
 }
 
 a {
+   text-decoration: none;
+}
+
+nav a {
    color: black;
    text-decoration: none;
 }
@@ -216,3 +220,23 @@ div.desc {
 .social-list:hover {
    box-shadow: 0 0 11px rgba(33,33,33,.2); 
  }
+
+ /* --- FOOTER --- */
+
+footer {
+   /* margin: 0 auto; */
+   padding: 3em 3em;
+   text-align: center;
+   color: #7b7b7b;
+   font-weight: bold;
+   background-color: #222222;
+
+}
+
+footer a {
+   color: white;
+}
+
+.name:hover {
+   color: #1A7DF0;
+}
