@@ -82,7 +82,7 @@ section {
 ul {
    margin: 15px;
    padding: 15px;
-   display: inline-block; /* Verificar */
+   display: flow-root; /* Verificar */
 }
 
 .about-text p {
@@ -174,7 +174,7 @@ ul {
 }
 
 .box-image {
-   display: flex; /* Verificar */
+   display: flex;
    justify-content: center; /* Verificar */
    align-items: center; /* Verificar */
    width: 100%;
