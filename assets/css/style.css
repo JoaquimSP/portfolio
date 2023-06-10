@@ -79,6 +79,19 @@ section {
    /* justify-content: center;  Opcional */
 }
 
+.about-text p {
+   margin: 15px;
+}
+
+.about-text {
+   /*letter-spacing: .2em; */
+   word-spacing: 19px;
+}
+
+.icons-tech {
+   text-align: center;
+}
+
 /* --- Box --- */
 
 .box {
