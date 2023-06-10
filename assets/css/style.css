@@ -79,13 +79,19 @@ section {
    /* justify-content: center;  Opcional */
 }
 
+ul {
+   margin: 15px;
+   padding: 15px;
+   display: inline-block; /* Verificar */
+}
+
 .about-text p {
    margin: 15px;
 }
 
 .about-text {
    /*letter-spacing: .2em; */
-   word-spacing: 19px;
+   word-spacing: 10px;
 }
 
 .icons-tech {
@@ -125,10 +131,6 @@ section {
    border-radius: 10px;
 }
 
-.border-img {
-
-}
-
 .about-img {
    float: left;
    padding: 10px;
@@ -142,13 +144,22 @@ section {
    font-weight: bold;
    padding: 15px; 
    text-align: center;
-   color: grey;
+   color: black;
 }
 
 .text {
    font-weight: bold;
    padding: 5px; 
    text-align: center;
+   color: grey;
+}
+
+.text {
+   font-size: 2em;
+}
+
+.icon {
+   font-size: 3em;
    color: grey;
 }
 
