@@ -174,9 +174,11 @@ ul {
 }
 
 .box-image {
-   display: flex;
-   justify-content: center; /* Verificar */
-   align-items: center; /* Verificar */
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   grid-gap: 20px;
+   /* justify-content: center;  Verificar */
+   /* align-items: center;  Verificar */
    width: 100%;
 }
 
@@ -198,6 +200,7 @@ div.gallery img {
 div.desc {
    /* padding: 15px; */
    text-align: center;
+   padding: 1em;
 }
 
 .resposive {
