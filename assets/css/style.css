@@ -248,6 +248,11 @@ div.desc {
    box-shadow: 0 0 11px rgba(33,33,33,.2); 
  }
 
+ .social-list a:hover {
+   color: #1A7DF0;
+   font-weight: bold;
+ }
+
  /* --- FOOTER --- */
 
 footer {
