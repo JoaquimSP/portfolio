@@ -10,6 +10,7 @@
 
 html, body {
    /* overflow-x: hidden; Hide horizontal scrollbar */
+   height: 100vh;
 }
 
 header {
@@ -106,7 +107,7 @@ ul {
    align-items: center;
    width: 100vw; 
    height: 50px;
-   /* background-color: grey;  Opcional */
+   background-color: grey;
    /* margin-bottom: 20px; */
    /* margin-top: 20px; */
 }
@@ -207,24 +208,7 @@ div.desc {
  /* padding: 0 6px; */
   float: left;
   width: 24.99999%;
-}
-
-/* 
-
-@media only screen and (max-width: 700px) {
-   .responsive {
-     width: 49.99999%;
-     margin: 6px 0;
-   }
- }
- 
- @media only screen and (max-width: 500px) {
-   .responsive {
-     width: 100%;
-   }
- }   
- 
-*/
+} 
 
 /* --- Contato --- */ 
 
