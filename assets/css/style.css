@@ -223,8 +223,8 @@ div.desc {
 }
 
 .social-list {
-   width: 650px;
-   height: 350px;
+   /* width: 650px; */
+   /* height: 350px; */
    border-radius: 10px;
    border: 3px solid #ccc;
    display: inline-flex;
@@ -289,6 +289,10 @@ footer a {
    }
 
    .contact {
+      display: grid;
+   }
+
+   .social-list {
       display: grid;
    }
 }
