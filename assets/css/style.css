@@ -9,7 +9,7 @@
 }
 
 html, body {
-   /* overflow-x: hidden; Hide horizontal scrollbar */
+   overflow-x:  hidden; /* Oculta a barra lateral */
    height: 100vh;
 }
 
