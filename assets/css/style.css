@@ -97,6 +97,7 @@ ul {
    align-items: center;
    width: 100vw; 
    height: 50px;
+   font-size: 1em;
    /* background-color: grey; */
    /* margin-bottom: 20px; */
    /* margin-top: 20px; */
@@ -142,16 +143,11 @@ ul {
    font-weight: bold;
    padding: 5px; 
    text-align: center;
-   color: grey;
-}
-
-.text {
    font-size: 2em;
 }
 
 .icon {
    font-size: 3em;
-   color: grey;
 }
 
 /* --- Projetos --- */
