@@ -9,15 +9,14 @@
 }
 
 html, body {
-   overflow-x:  hidden; /* Oculta a barra lateral */
+  /* overflow-x:  hidden;  Oculta a barra lateral */
    height: 100vh;
 }
 
 header {
    text-align: center;
-   position: relative;
    top: 10px;
-   padding: 20px;
+   padding: 30px;
 }
 
 a {
@@ -26,11 +25,10 @@ a {
 
 nav a {
    color: black;
-   text-decoration: none;
 }
 
 .navbar a {
-   font-weight: 550;
+   font-weight: bold;
    padding: 5px;
    transition: .3s;  
 }
@@ -59,9 +57,10 @@ nav a {
    font-size: 32px;
 }
 
+
 .home-content {
-   margin-left: 1.5rem; 
-}
+  /* margin-left: 1.5rem; */
+} 
 
 /* --- Sobre mim --- */
 
@@ -72,9 +71,16 @@ nav a {
 }
 
 ul {
-   margin: 15px;
+   margin: 10px;
    padding: 15px;
-   display: flow-root; /* Verificar */
+   display: flex; 
+   flex-direction: column;
+}
+
+li {
+   font-weight: bold;
+   margin: 20px;
+   padding: 5px;
 }
 
 .about-text p {
@@ -91,29 +97,41 @@ ul {
 
 /* --- Box --- */
 
-.box {
+/*
+.box-all {
+   margin: 100px;
+} */
+
+.about {
+   margin: 100px;
+}
+
+.projects {
+   margin: 100px;
+}
+
+.box-title {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 100vw; 
-   height: 50px;
    font-size: 1em;
    /* background-color: grey; */
    /* margin-bottom: 20px; */
    /* margin-top: 20px; */
 }
 
-.box a {
+.box-title a {
+   padding: 5px;
+   margin: 50px;
+   height: 35px;
+   width: 110px;
+   background: #1A7DF0;
+   color: white;
+   font-weight: bold;
+   border-radius: 8px;
    display: inline-flex;
    justify-content: center;
    align-items: center;
-   width: 120px;
-   height: 100%;
-   background: #1A7DF0;
-   border: 2px solid;
-   color: white;
-   font-weight: 550;
-   border-radius: 8px;
 }
 
 .about-img img {
@@ -156,10 +174,6 @@ ul {
    /* margin: 10px; */
 }
 
-.box-all {
-   margin: 100px;
-}
-
 .box-image {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -190,16 +204,19 @@ div.desc {
    padding: 1em;
 }
 
-.resposive {
- /* padding: 0 6px; */
+/*
+.responsive {
+  padding: 0 6px;
   float: left;
   width: 24.99999%;
 } 
+*/
 
 /* --- Contato --- */ 
 
 .contact {
    text-align: center;
+   margin: 100px;
 }
 
 .social {
@@ -210,8 +227,6 @@ div.desc {
 }
 
 .social-list {
-   /* width: 650px; */
-   /* height: 350px; */
    border-radius: 10px;
    border: 3px solid #ccc;
    display: inline-flex;
