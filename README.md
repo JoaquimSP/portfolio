@@ -1,5 +1,5 @@
 # portfolio
-👨🏻‍💻 Meu currículo criado com o objetivo de mostrar minhas experiências, formação, projetos e habilidades.
+👨🏻‍💻 Meu portfólio criado com o objetivo de mostrar minhas experiências, formação, projetos e habilidades.
 
 ✅ Tecnologias utilizadas: HTML5, CSS3 & JavaScript.
 
