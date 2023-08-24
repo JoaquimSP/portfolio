@@ -57,7 +57,6 @@ nav a {
    font-size: 32px;
 }
 
-
 .home-content {
   /* margin-left: 1.5rem; */
 } 
@@ -77,8 +76,8 @@ ul {
    flex-direction: column;
 }
 
-li {
-   font-weight: bold;
+.text-p {
+   text-align: center;
    margin: 20px;
    padding: 5px;
 }
@@ -100,7 +99,6 @@ li {
 }
 
 /* --- Box --- */
-
 
 .box-all {
    /* margin: 100px; */
