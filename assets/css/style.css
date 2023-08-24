@@ -95,12 +95,19 @@ li {
    text-align: center;
 }
 
+.icon:hover {
+   color: #1A7DF0;
+}
+
 /* --- Box --- */
 
-/*
+
 .box-all {
-   margin: 100px;
-} */
+   /* margin: 100px; */
+  /* display: flex;
+   flex-wrap: wrap;
+   flex-direction: column; */
+}
 
 .about {
    margin: 100px;
@@ -144,6 +151,7 @@ li {
 .about-img {
    float: left;
    padding: 10px;
+   margin: 25px;
 }
 
 .about-text {
@@ -169,10 +177,6 @@ li {
 }
 
 /* --- Projetos --- */
-
-.projects {
-   /* margin: 10px; */
-}
 
 .box-image {
    display: grid;
