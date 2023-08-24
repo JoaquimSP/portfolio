@@ -290,8 +290,16 @@ footer a {
       display: grid;
    }
 
+   section#about.about {
+      margin: 5px;
+      display: flex;
+      flex: wrap;
+      flex-direction: column;
+   }
+   
    .projects {
       display: grid;
+      margin: 5px;
    }
 
    .contact {
