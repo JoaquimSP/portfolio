@@ -112,7 +112,7 @@ ul {
 }
 
 .projects {
-   margin: 100px;
+   margin: 150px;
 }
 
 .box-title {
@@ -121,8 +121,6 @@ ul {
    align-items: center;
    font-size: 1em;
    /* background-color: grey; */
-   /* margin-bottom: 20px; */
-   /* margin-top: 20px; */
 }
 
 .box-title a {
@@ -274,12 +272,19 @@ footer a {
 /* ----- Media Queries ----- */
 
 @media (max-width: 600px) {
+   .navbar a {
+      padding: 0;
+      margin: 0;
+   }
+
    .home h1 {
       font-size: 2.5em;
+      text-align: center;
    }
 
    .home h2 {
-      font-size: 1.5em;
+      font-size: 1.3em;
+      text-align: center;
    }
    
    .home {
