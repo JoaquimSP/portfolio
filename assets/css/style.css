@@ -361,4 +361,8 @@ footer a {
    .social-list {
       display: grid;
    }
+
+   .link {
+      margin: 10px;
+   }
 }
