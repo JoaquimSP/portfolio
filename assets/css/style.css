@@ -42,7 +42,7 @@ nav a {
 }
 
 .home {
-   height: 90vh;
+   height: 80vh;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -112,7 +112,7 @@ ul {
 }
 
 .projects {
-   margin: 150px;
+   margin: 100px;
 }
 
 .box-title {
