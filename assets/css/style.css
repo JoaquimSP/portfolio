@@ -135,6 +135,7 @@ ul {
    display: inline-flex;
    justify-content: center;
    align-items: center;
+   box-shadow: 0 0 25px #0000005a;
 }
 
 .about-img {
