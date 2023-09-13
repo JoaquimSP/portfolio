@@ -177,6 +177,10 @@ ul {
 
 /* --- Projetos --- */
 
+.projects {
+   margin: 150px;
+}
+
 .box-image {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -341,6 +345,10 @@ footer a {
 
    .about {
       display: grid;
+   }
+
+   .about-img {
+      margin: 55px;
    }
 
    section#about.about {
